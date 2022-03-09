@@ -16,7 +16,8 @@
     "react-native": "0.67.3",
     "react-native-calendars": "^1.1278.0",
     "react-native-dropdown-picker": "^5.3.0",
-    "react-native-paper": "^4.11.2"
+    "react-native-paper": "^4.11.2",
+    "react-native-touch-id": "^4.4.1"
   },
   "devDependencies": {
     "@babel/core": "7.17.5",

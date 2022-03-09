@@ -3,6 +3,8 @@ import {Alert, StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 import {Picker} from '@react-native-picker/picker';
 import {Agenda, Calendar} from 'react-native-calendars';
 import {meeting} from './data/meetings';
+import Toutch_id from './components/Toutch_id';
+
 
 const App = () => {
   const [selectedvalue, setSelectedValue] = useState('j');
@@ -19,6 +21,7 @@ const App = () => {
       }
     });
     setDatas(trans_date);
+    
   }, []);
 
   const setStatus = (date, firstItemInDay, sta) => {
@@ -107,6 +110,8 @@ const App = () => {
     );
   };
 
+
+
   return (
     <View style={{flex: 1}}>
       <Agenda
@@ -124,6 +129,7 @@ const App = () => {
         maxDate={'2022-07-30'}
         pastScrollRange={50}
       />
+      <Toutch_id />
     </View>
   );
 };
