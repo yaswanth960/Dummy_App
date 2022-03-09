@@ -104,7 +104,7 @@ const App = () => {
       <View
         style={{justifyContent: 'center', alignItems: 'center', height: 100}}>
         <Text style={{color: 'black', fontWeight: 'bold'}}>
-          No Event Available
+          No Event Available Here
         </Text>
       </View>
     );
